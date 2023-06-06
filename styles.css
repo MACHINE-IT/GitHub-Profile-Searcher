@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  html,
+  body {
+    position: relative;
+  }
+  
+  body {
+    overflow-y: auto;
+    min-height: 100vh;
+  }
+  textarea:focus,
+  input:focus {
+    outline: none;
+  }
+  a {
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+
+.github-user-details {
+  top: 5%;
+}
+
+#username:focus {
+  border-color: goldenrod;
+  border-width: 2px;
+}
+
+.form-control:focus {
+  border-color: none;
+  box-shadow: none;
+}
+
+.user-id-input input:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.user-id-input {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:fit-content;
+}
+
+.container  {
+  height:fit-content;
+  width:fit-content;
+}
+
+#user-details {
+  background-color: grey;
+  border-radius: 35px;
+  padding: 55px;
+  
+}
+
+#user-avatar-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.img-thumbnail {
+  border: 5px solid white !important;
+}
+
+.about-user {
+  padding: 3%;
+  color: white;
+}
+
+  footer {
+    background: #f1f1f1;
+    width: 100%;
+    padding: 16px 0px;
+    color: #999;
+    position: absolute;
+    bottom: 0;
+    /* width: 100%; */
+    /* height: 2.5rem;   */
+  }
+  
+  .footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
